@@ -5,6 +5,8 @@ import MutationObserver from 'mutationobserver-shim';
 import CheckoutForm from "./components/CheckoutForm";
 import PlantList from "./components/PlantList";
 
+const useless = 'change'
+
 describe("Checkout Form tests", ()=>{
   test("renders without errors", ()=>{
     render(<CheckoutForm />);
